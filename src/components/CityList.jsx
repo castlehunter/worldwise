@@ -15,18 +15,4 @@ function CityList({ cities, isLoading }) {
   );
 }
 
-// CityList.propTypes = {
-//   cities: PropTypes.arrayOf(
-//     PropTypes.shape({
-//       id: PropTypes.number.isRequired,
-//     })
-//   ).isRequired,
-//   isLoading: PropTypes.bool.isRequired,
-// };
-
-// CityList.defaultProps = {
-//   cities: [],
-//   isLoading: false,
-// };
-
 export default CityList;
