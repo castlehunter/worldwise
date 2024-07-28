@@ -1,18 +1,7 @@
-/* AppLayout.module.css */
 .app {
   height: 100vh;
   padding: 2.4rem;
   overscroll-behavior-y: none;
   display: flex;
   position: relative;
-}
-
-.main {
-  flex: 1; /* 让 Map 占据剩余的空间 */
-  display: flex;
-}
-
-.sidebarContent {
-  flex: 0 0 20%; /* 调整 Sidebar 内部内容的宽度，根据实际情况调整 */
-  padding: 1rem;
 }
